@@ -23,8 +23,9 @@ public class DaoFactory {
         }
 
         //DaoFactory instance = new DaoFactory("jdbc:mysql://localhost:3306/intem1517491", "arsenic", "micmic42");
+        DaoFactory instance = new DaoFactory("jdbc:mysql://localhost:3306/intemp1517491", "exercice", "latinbwa1+42!");
         //DaoFactory instance = new DaoFactory("jdbc:mysql://localhost:3306/exercice_db", "exercice_website", "vg9+t#=0%YrY");
-        DaoFactory instance = new DaoFactory("jdbc:mysql://exercices-latin.be:3306/exercice_db", "exercice_website", "vg9+t#=0%YrY");
+        //DaoFactory instance = new DaoFactory("jdbc:mysql://exercices-latin.be:3306/exercice_db", "exercice_website", "vg9+t#=0%YrY");
         return instance;
     }
 
